@@ -44,11 +44,75 @@ body {
     text-underline-offset: 7px;
 }
 
-.header-center .button-header {
+/* all buttons */
+button {
     height: 40px;
     background-color: var(--primaryOrange);
     padding: 12px;
     font-weight: bold;
     box-shadow: 5px 5px 5px var(--primaryBlack);
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--secundaryOrange);
+}
+
+.main-center {
+    width: 98%;
+    border: 1px solid var(--primaryBlack);
+    margin: 0 auto;
+}
+
+.main-center .section-one {
+    display: flex;
+    max-height: 700px;
+    /* VERIFICAR ESSE MAX-HEIGHT NA HORA DO RESPONSIVO!!!!!!! */
+}
+
+.section-one .content-infos {
+    width: 40%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-infos p {
+    max-width: 274px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: var(--primaryBlack);
+}
+
+.content-infos h1 {
+    font-size: 45px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+}
+
+.content-infos span img {
+    position: absolute;
+    top: -10px;
+}
+
+.content-infos .button-section-one {
+    position: relative;
+    right: 69px;
+    margin-top: 30px;
+}
+
+.content-infos span {
+    color: var(--primaryOrange);
+    position: relative;
+
+}
+
+.content-infos .img-arrow {
+    position: relative;
+    top: 30px;
 }
 
