@@ -1,5 +1,5 @@
 
-@media (max-width: 500px) {
+@media (max-width: 62.5rem) {
     .header-center {
         flex-direction: column;
     }
@@ -7,20 +7,20 @@
     .header-center figure {
         width: 100%;
         text-align: center;
-        margin-top: 12px;
+        margin-top: 0.75rem;
     }
 
     .header-center nav {
-        margin: 10px 0;
+        margin: 0.625rem 0;
     }
 
     .header-center nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 4px;
+        gap: 0.25rem;
         align-items: center;
         justify-items: center;
-        padding: 10px;
+        padding: 0.625rem;
     }
 
     .main-center .section-one {
@@ -32,9 +32,9 @@
 
     .content-infos h1 img {
         position: relative;
-        top: -6.875rem;
-        right: -15.625rem;
-        width: 1.875rem;
+        top: -110px;
+        right: -250px;
+        width: 30px;
     }
 
     .section-one img {
@@ -47,14 +47,14 @@
 
     .content-infos .img-arrow {
         position: relative;
-        top: 1.920rem;
-        left: 90px;
-        width: 150px;
+        top: 30.72px;
+        left: 5.625rem;
+        width: 9.375rem;
     }
 
     .button-section-one {
         position: relative;
-        left: 5px;
+        left: 0.3125rem;
     }
 
     .section-two .cards {
@@ -66,7 +66,7 @@
     }
 
     .cards .card-model:nth-child(2) {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
 
     .footer-center .infos {
@@ -78,7 +78,7 @@
     }
 
     .footer-center .infos nav {
-        margin-bottom: 15px;
+        margin-bottom: 0.9375rem;
     }
 
     .infos .data-entry {
@@ -88,5 +88,10 @@
     .infos .data-entry input {
         width: 100%;
     }
+}
 
+@media (max-width: 71.875rem) {
+    .section-one .music {
+        width: 70%;
+    }
 }

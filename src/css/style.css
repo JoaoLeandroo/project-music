@@ -91,12 +91,13 @@ button:hover {
     font-weight: 800;
     display: flex;
     flex-direction: column;
-    /* position: relative; */
 }
 
 .content-infos h1 img {
-    position: absolute;
-    top: -0.625rem;
+    position: relative;
+    width: 1.875rem;
+    top: -6.875rem;
+    right: -15.625rem;
 }
 
 .content-infos .button-section-one {
