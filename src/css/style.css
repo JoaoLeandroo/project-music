@@ -15,7 +15,8 @@ body {
 
 .header-center {
     width: 98%;
-    border: 1px solid var(--primaryBlack);
+    border-left: 1px solid var(--primaryBlack);
+    border-right: 1px solid var(--primaryBlack);
     margin: 0 auto;
     padding: 15px;
 
@@ -60,7 +61,8 @@ button:hover {
 
 .main-center {
     width: 98%;
-    border: 1px solid var(--primaryBlack);
+    border-left: 1px solid var(--primaryBlack);
+    border-right: 1px solid var(--primaryBlack);
     margin: 0 auto;
 }
 
@@ -157,7 +159,7 @@ button:hover {
 
 
 .section-two h2 span {
-    color: var(--secundaryOrange);
+    color: var(--primaryOrange);
 }
 
 
@@ -178,4 +180,86 @@ button:hover {
 
 .end-section-two button {
     margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.footer-center {
+    position: static;
+    width: 98%;
+    /* height: 300px; */
+    border: 1px solid var(--primaryBlack);
+    margin: 0 auto;
+    padding: 25px;
+    padding-bottom: 110px;
+}
+
+.footer-center .infos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.infos .data-entry {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos .data-entry p {
+    color: var(--primaryBlack);
+    font-weight: 800;
+}
+
+.infos .data-entry input {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    font-size: 19px;
+    padding: 0 8px;
+    margin-top: 15px;
+    box-shadow: 3px 3px 3px var(--primaryBlack);
+}
+
+.infos .data-entry .button-footer-email {
+    margin-top: 20px;
+    max-width: 150px;
+}
+
+.footer-center nav ul a {
+    color: var(--primaryBlack);
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-center ul a:hover {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.footer-center nav ul li {
+    margin-top: 20px;
+}
+
+.footer-center .info-img-text {
+    width: 20%;
+    padding: 8px;
+}
+
+.info-img-text p {
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+hr {
+    width: 98%;
+    height: 2px;
+    border: 1px solid var(--primaryBlack);
+    margin: 0 auto;
+    opacity: 0.4;
+}
+
+.main-center .division {
+    width: 100%;
+    position: relative;
+    top: 150px;
 }
