@@ -1,5 +1,5 @@
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .header-center {
         flex-direction: column;
     }
@@ -30,8 +30,43 @@
         flex-direction: column-reverse;
     }
 
+    .content-infos h1 img {
+        position: relative;
+        top: -6.875rem;
+        right: -15.625rem;
+        width: 1.875rem;
+    }
+
     .section-one img {
         width: 100%;
+    }
+
+    .section-one .content-infos {
+        width: 100%;
+    }
+
+    .content-infos .img-arrow {
+        position: relative;
+        top: 1.920rem;
+        left: 90px;
+        width: 150px;
+    }
+
+    .button-section-one {
+        position: relative;
+        left: 5px;
+    }
+
+    .section-two .cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .cards .card-model:nth-child(2) {
+        margin-bottom: 30px;
     }
 
 }

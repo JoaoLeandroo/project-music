@@ -82,7 +82,7 @@ button:hover {
 .content-infos p {
     max-width: 17.125rem;
     margin-top: 1.25rem;
-    font-weight: 500;
+    font-weight: 800;
     color: var(--primaryBlack);
 }
 
@@ -94,7 +94,7 @@ button:hover {
     /* position: relative; */
 }
 
-.content-infos span img {
+.content-infos h1 img {
     position: absolute;
     top: -0.625rem;
 }
@@ -123,8 +123,8 @@ button:hover {
 
 .cards {
     margin-top: 6.25rem;
+    
     display: flex;
-
     align-items: center;
     justify-content: center;
     gap: 1%;
