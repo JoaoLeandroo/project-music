@@ -1,0 +1,37 @@
+
+@media (max-width: 400px) {
+    .header-center {
+        flex-direction: column;
+    }
+
+    .header-center figure {
+        width: 100%;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .header-center nav {
+        margin: 10px 0;
+    }
+
+    .header-center nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px;
+        align-items: center;
+        justify-items: center;
+        padding: 10px;
+    }
+
+    .main-center .section-one {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .section-one img {
+        width: 100%;
+    }
+
+}

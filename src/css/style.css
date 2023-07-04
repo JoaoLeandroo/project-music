@@ -36,7 +36,7 @@ body {
 .header-center ul a{
     color: var(--primaryBlack);
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 800;
     transition: all 0.3s ease-in-out;
 }
 
@@ -68,8 +68,6 @@ button:hover {
 
 .main-center .section-one {
     display: flex;
-    max-height: 43.75rem;
-    /* VERIFICAR ESSE MAX-HEIGHT NA HORA DO RESPONSIVO!!!!!!! */
 }
 
 .section-one .content-infos {
