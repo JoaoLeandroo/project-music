@@ -7,7 +7,7 @@
 }
 
 body {
-    max-width: 1440px;
+    max-width: 90rem;
     width: 100%;
     background: linear-gradient(90deg, var(--primaryPink) 0%, var(--secundaryPink) 100%);
 
@@ -15,10 +15,10 @@ body {
 
 .header-center {
     width: 98%;
-    border-left: 1px solid var(--primaryBlack);
-    border-right: 1px solid var(--primaryBlack);
+    border-left: 0.0625rem solid var(--primaryBlack);
+    border-right: 0.0625rem solid var(--primaryBlack);
     margin: 0 auto;
-    padding: 15px;
+    padding: 0.9375rem;
 
     display: flex;
     justify-content: space-around;
@@ -30,28 +30,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0 35px;
+    gap: 0 2.1875rem;
 }
 
 .header-center ul a{
     color: var(--primaryBlack);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
 }
 
 .header-center ul a:hover {
     text-decoration: underline;
-    text-underline-offset: 7px;
+    text-underline-offset: 0.4375rem;
 }
 
 /* all buttons */
 button {
-    height: 40px;
+    height: 2.5rem;
     background-color: var(--primaryOrange);
-    padding: 12px;
+    padding: 0.75rem;
     font-weight: bold;
-    box-shadow: 5px 5px 5px var(--primaryBlack);
+    box-shadow: 0.3125rem 0.3125rem 0.3125rem var(--primaryBlack);
     transition: all 0.3s ease-in-out;
 }
 
@@ -61,14 +61,14 @@ button:hover {
 
 .main-center {
     width: 98%;
-    border-left: 1px solid var(--primaryBlack);
-    border-right: 1px solid var(--primaryBlack);
+    border-left: 0.0625rem solid var(--primaryBlack);
+    border-right: 0.0625rem solid var(--primaryBlack);
     margin: 0 auto;
 }
 
 .main-center .section-one {
     display: flex;
-    max-height: 700px;
+    max-height: 43.75rem;
     /* VERIFICAR ESSE MAX-HEIGHT NA HORA DO RESPONSIVO!!!!!!! */
 }
 
@@ -82,14 +82,14 @@ button:hover {
 }
 
 .content-infos p {
-    max-width: 274px;
-    margin-top: 20px;
+    max-width: 17.125rem;
+    margin-top: 1.25rem;
     font-weight: 500;
     color: var(--primaryBlack);
 }
 
 .content-infos h1 {
-    font-size: 45px;
+    font-size: 2.8125rem;
     font-weight: 800;
     display: flex;
     flex-direction: column;
@@ -98,13 +98,13 @@ button:hover {
 
 .content-infos span img {
     position: absolute;
-    top: -10px;
+    top: -0.625rem;
 }
 
 .content-infos .button-section-one {
     position: relative;
-    right: 69px;
-    margin-top: 30px;
+    right: 4.3125rem;
+    margin-top: 1.875rem;
 }
 
 .content-infos span {
@@ -115,7 +115,7 @@ button:hover {
 
 .content-infos .img-arrow {
     position: relative;
-    top: 30px;
+    top: 1.875rem;
 }
 
 .section-two {
@@ -124,7 +124,7 @@ button:hover {
 }
 
 .cards {
-    margin-top: 100px;
+    margin-top: 6.25rem;
     display: flex;
 
     align-items: center;
@@ -133,18 +133,18 @@ button:hover {
 }
 
 .cards .card-model {
-    width: 250px;
-    height: 300px;
+    width: 15.625rem;
+    height: 18.75rem;
     position: relative;
-    border: 1px solid var(--primaryBlack);
-    box-shadow: 3px 3px 3px var(--primaryBlack);
-    padding: 19px;
+    border: 0.0625rem solid var(--primaryBlack);
+    box-shadow: 0.1875rem 0.1875rem 0.1875rem var(--primaryBlack);
+    padding: 1.1875rem;
 }
 
 .card-model:nth-child(odd) {
     background-color: var(--primaryOrange);
     position: relative;
-    top: -18px;
+    top: -1.125rem;
 }
 
 .card-model:nth-child(even) {
@@ -165,7 +165,7 @@ button:hover {
 
 .end-section-two {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 6.25rem;
 
     display: flex;
     flex-direction: column;
@@ -175,26 +175,26 @@ button:hover {
 
 .section-two .end-section-two h2 {
     font-weight: 800;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .end-section-two button {
-    margin-top: 50px;
-    margin-bottom: 90px;
+    margin-top: 3.125rem;
+    margin-bottom: 5.625rem;
 }
 
 .footer-center {
     position: static;
     width: 98%;
-    /* height: 300px; */
-    border: 1px solid var(--primaryBlack);
+    /* height: 18.75rem; */
+    border: 0.0625rem solid var(--primaryBlack);
     margin: 0 auto;
-    padding: 25px;
-    padding-bottom: 110px;
+    padding: 1.5625rem;
+    padding-bottom: 6.875rem;
 }
 
 .footer-center .infos {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     display: flex;
     justify-content: space-around;
 }
@@ -210,50 +210,50 @@ button:hover {
 }
 
 .infos .data-entry input {
-    width: 400px;
-    height: 40px;
+    width: 25rem;
+    height: 2.5rem;
     outline: none;
-    font-size: 19px;
-    padding: 0 8px;
-    margin-top: 15px;
-    box-shadow: 3px 3px 3px var(--primaryBlack);
+    font-size: 1.1875rem;
+    padding: 0 0.5rem;
+    margin-top: 0.9375rem;
+    box-shadow: 0.1875rem 0.1875rem 0.1875rem var(--primaryBlack);
 }
 
 .infos .data-entry .button-footer-email {
-    margin-top: 20px;
-    max-width: 150px;
+    margin-top: 1.25rem;
+    max-width: 9.375rem;
 }
 
 .footer-center nav ul a {
     color: var(--primaryBlack);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
 }
 
 .footer-center ul a:hover {
     text-decoration: underline;
-    text-underline-offset: 7px;
+    text-underline-offset: 0.4375rem;
 }
 
 .footer-center nav ul li {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .footer-center .info-img-text {
     width: 20%;
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 .info-img-text p {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-weight: 800;
 }
 
 hr {
     width: 98%;
-    height: 2px;
-    border: 1px solid var(--primaryBlack);
+    height: 0.125rem;
+    border: 0.0625rem solid var(--primaryBlack);
     margin: 0 auto;
     opacity: 0.4;
 }
@@ -261,5 +261,5 @@ hr {
 .main-center .division {
     width: 100%;
     position: relative;
-    top: 150px;
+    top: 9.375rem;
 }
