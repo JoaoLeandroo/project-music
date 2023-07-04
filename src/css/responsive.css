@@ -69,4 +69,24 @@
         margin-bottom: 30px;
     }
 
+    .footer-center .infos {
+        flex-direction: column;
+    }
+
+    .infos .info-img-text {
+        width: 100%;
+    }
+
+    .footer-center .infos nav {
+        margin-bottom: 15px;
+    }
+
+    .infos .data-entry {
+        width: 98%;
+    }
+
+    .infos .data-entry input {
+        width: 100%;
+    }
+
 }

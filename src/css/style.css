@@ -123,7 +123,7 @@ button:hover {
 
 .cards {
     margin-top: 6.25rem;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -236,6 +236,10 @@ button:hover {
 
 .footer-center nav ul li {
     margin-top: 1.25rem;
+}
+
+.footer-center nav ul a {
+    font-weight: 800;
 }
 
 .footer-center .info-img-text {
